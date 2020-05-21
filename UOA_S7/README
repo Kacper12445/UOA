@@ -21,7 +21,7 @@ za pomocą inputa 'Reset'
 
 Zadanie 4
 Program symulujący taśmę rozszerzony o 3 ramiona sortujace obiekty.
-Sortowanie polega na tym że pierwsze 10 obiektów jest zsuwane przez ramie 1 do powiedzmy wózka 1.
+Sortowanie polega na tym że pierwsze 10 obiektów jest zsuwane przez ramie 1 do wózka 1.
 Kolejne 10 obiektów jest wrzucane przez ramię nr 2 do wózka nr 2
 Obiekty od dwudziestego do trzydziestego są wrzucone przez ramię nr 3 do wózka nr 3.
 Przy posortowaniu 30 obiektów następuje wymiana wózków na puste realizujemy to poprzez licznik opuszczonych obiektów.
