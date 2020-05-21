@@ -1,0 +1,37 @@
+Zadanie 1
+Program odtwarzający 3 bramki
+- Bramka AND
+Gdy oba inputy są włączone(1), output przyjmuje wartość 1
+- Bramka OR
+Gdy jeden z dwóch inputów lub oba są właczone(1) , output przyjmuje wartość 1
+- Bramka XOR
+Gdy jeden z inputów przyjmuje wartość 1, output również przyjmuje wartość 1. Gdy oba inputy są "prawdą" to output false
+
+Zadanie 2
+Program symulujący działanie taśmy.
+Gdy na taśmie jest obiekt, taśma jest właczona natomiast gdy taśma jest pusta , jest ona wyłączona. Model taśmy realizowany jest 
+dla jednego obiektu. 
+
+Zadanie 3
+Program symulujący działanie taśmy rozszerzony o dodawanie obiektów oraz ich usuwanie.
+Zasada działania jest taka sama jak w zad 2 a mianowicie , jeśli choć jeden obiekt znajduje się na taśmie , porusza się. Natomiast
+gdy na taśmie nie ma żadnego obiektu taśma nie porusza się. Właściwości programu zrealizowaliśmy za pomocą funkcji 'count up and down'
+gdy dodawalismy obiekt liczyliśmy w 'górę' , gdy obiekt opuszczał taśme liczyliśmy w 'dół'. Mamy również możliwość zresetowania licznika 
+za pomocą inputa 'Reset'
+
+Zadanie 4
+Program symulujący taśmę rozszerzony o 3 ramiona sortujace obiekty.
+Sortowanie polega na tym że pierwsze 10 obiektów jest zsuwane przez ramie 1 do powiedzmy wózka 1.
+Kolejne 10 obiektów jest wrzucane przez ramię nr 2 do wózka nr 2
+Obiekty od dwudziestego do trzydziestego są wrzucone przez ramię nr 3 do wózka nr 3.
+Przy posortowaniu 30 obiektów następuje wymiana wózków na puste realizujemy to poprzez licznik opuszczonych obiektów.
+Ramiona są realizowane jako outputy, program automatycznie licząc od 0 do 10 używa ramienia nr. 1 od 10 do 20 ramienia nr. 2 a od 20 do 30 
+ramienia nr. 3
+
+Zadanie 5
+Program symulujący działanie świateł drogowych. 
+Program realizowany jest dzięki timerowi, który liczy czas do 60 s. W chwili osiągniecia sześćdziesiątej sekundy timer zatrzymuje się
+dlatego gdy chcemy aby cykl został powtórzony, używamy inputu " Uruchom ponownie" , które resetuje nasz timer.
+Zielone światło świeci się gdy czas na timerze jest w zakresie (1ms, 10s> oraz (50s, 60s)
+Żółte światło świeci się gdy czas na timerze wynosi (10s, 20s> oraz (40s, 50s>
+Czerwone światło świeci się gdy czas na timerze jest w zakresie (20s, 40s>
